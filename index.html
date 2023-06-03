@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar" id="myNavbar">
+        <div class="navbar " id="myNavbar">
+            <a class="m-1" href="index.html">HOME</a>
+            <a class="m-1" href="history.html">HTML-History</a>
+            <a class="m-1" href="refence.html">REFERANCE</a>
+            <a class="m-1" href="example.html" id="myLink">Basic example</a>
+            <a href="cheatsheet.html" class="m-1">HTML cheatsheet</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </div>
+    </nav>
+
+
+
+    <div class="cl-1 mbp-1   d-f">
+        <h1 class="mbp-1">HTML Basic to Advanced </h1>
+
+    </div>
+    <h3>
+        <ol>
+            <li> What is HTML?</li>
+            <br>
+            <li>Features Of HTML</li><br>
+            <li>Html skelton</li><br>
+            <li>HTML Comments</li><br>
+            <li>HTML Elements(< h1>..< H6>,< p>,< br>,< a>,< img>)</li>
+            <br>
+            <li> HTML Attributes (alt, href, src, width, height, style, title, id) </li>
+            <br>
+            <li>Table tag</li>
+            <br>
+            <li>Form tag</li>
+            <br>
+
+
+        </ol>
+    </h3>
+    <div class="center mbp-1">
+        <h2 class="mbp-2" id="index.html#h1">CH 1:- What is HTML </h2>
+    </div>
+    <P>● HTML Stands for HyperText Markup Language</P>
+    <p>● HyperText: Link between web pages.</p>
+    <p>● Markup Language: Text between tags which defines structure.</p>
+    <p>● HTML is the standard markup language for creating Web pages.</p>
+    <p>● HTML consists of a series of elements. HTML elements tell the
+        browser how to display the content</p>
+
+    <div class="center mbp-1">
+        <h3 class="bg-1 mbp-2">1.1 What is HTML used for and why?</h3>
+    </div>
+    <p>HTML is used to structure the content of a web page. It defines the elements and their arrangement within the
+        document. When it comes to creating a responsive design, HTML plays a crucial role in organizing the content and
+        providing the necessary structure for responsive behavior.</p>
+
+    <div class="center mbp-1">
+        <h4 class="bg-1 mbp-2">
+            1.2 Example
+        </h4>
+
+    </div>
+    <pre class="block ">
+            &lt;!DOCTYPE html &gt;
+           
+            &lt;html &gt;  
+
+                &lt;head &gt;  
+                       &lt;title &gt;  <strong> Page title  </strong>&lt;/title &gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                        &lt;h2&gt; heading content  &lt;/h2&gt;
+                        &lt;p&gt; paragraph content    &lt;/p&gt;
+
+                &lt;/body&gt;
+
+            &lt;html&gt;
+ </pre>
+    <div class="center fs">Next ch Features Of HTML</div>
+    </div>
+    <div class="mbp-1">
+        <h3 class="text-bg-info mbp-1 ">2.Features Of HTML
+        </h3>
+    </div>
+    <ul>
+        <li> The learning curve is very easy (easy to modify)</li>
+        <li>Create effective presentations</li>
+        <li> Add links wherein we can add references</li>
+
+        <li>Can display documents on platforms like Mac , Windows, Linux etc</li>
+        <li>Add videos, graphics and audios making it more attractive.</li>
+        <li> Case insensitive language
+        </li>
+
+    </ul>
+    <div class="mbp-1 center">
+        <h2 class="mbp-1"> Ch 3
+            Html skelton</h2>
+    </div>
+    <div>
+        <pre class="block">
+            &lt;!DOCTYPE html &gt;  &lt; ----- <mark> Tells the document type </mark>
+           
+            &lt;html &gt;&lt; ---- <mark>The root element  </mark> 
+
+                &lt;head &gt;  
+                       &lt;title &gt;  <strong> Page title  </strong>&lt;/title &gt; &lt;    ----  <mark> Define title of page </mark> 
+                &lt;/head&gt;
+                &lt;body&gt;  &lt; ----  <mark>Hold content of the page  </mark> 
+                        &lt;h2&gt; heading content  &lt;/h2&gt;
+                        &lt;p&gt; paragraph content    &lt;/p&gt;
+                        &lt;/body&gt;
+
+            &lt;html&gt;
+    
+        </pre>
+
+        <div class="mbp-1 center">
+            <h3 class="bg-1 mbp-2">Explain HTML structure</h3>
+        </div>
+        <p>
+        <h3 class="text-bg-info">1.< ! DOCTYPE html>
+        </h3>
+        <li class="fs-3">
+            Instruction to the browser about the HTML version
+        </li>
+        </p>
+        <p>
+        <h3 class="text-bg-info">2.< html>
+        </h3>
+
+        <li class="fs-3">Root element which acts as a container to hold all the code Browser should know that this a
+            HTML document Permitted content: One head tag followed by one body tag. <br>
+            Root element which acts as a container to hold all the code Browser should know that this a HTML
+            document
+            Permitted content: One head tag followed by one body tag
+        </li>
+        </p>
+        <p>
+        <h3 class="text-bg-info">3.< head>
+        </h3>
+
+        <li class="p-lg-4 fs-3"> written here will never be displayed in the browser
+            It contains general information about the
+            document Title, definitions of css and script sheets
+            Metadata(information about the document)
+        </li>
+        </p>
+        <p>
+        <h3 class="text-bg-info">4 < body>
+        </h3>
+
+        <li class="fs-3"> Everything written here will be displayed in the browser Contains text, images, links
+            which
+            can
+            be
+            achieved
+            through tags.</li>
+
+        <li class="fs-3"> Everything written here will be displayed in the browser Contains text, images, links
+            which
+            can
+            be
+            achieved
+            through tags.</li>
+        </p>
+        <p>
+        <h3 class="bg-1"> Examples:</h3>
+        <pre>
+                ○ < p> This is our first paragraph. < /p>
+                ○ < a href="http://www.google.com">Go To Google< /a>
+                ○ < img src="photo.jpg">
+    
+  
+              <hr></pre>
+
+
+        </p>
+        <div class="center mbp-1">
+            <h2 class="mbp-2" id="index.html#h1">CH 4:HTML Comments </h2>
+        </div>
+        <p>●
+            Comments don`t render on the browser
+            <br> ●
+            Helps to understand our code better and makes it readable.
+            <br> ●
+            Helps to debug our code
+            <br> ●
+            Three ways to comment:
+            <br>
+            ○
+            Single line
+            <br> ○
+            Multiple line
+            <br>
+        </p>
+        <p>  HTML Comment Tag <br>
+             You can add comments to your HTML source by using the following <br>
+            syntax: <br>
+             &lt;!-- Write your comments here -->
+            <br>
+        </p>
+
+        <div class="center mbp-1">
+            <h2 class="mbp-2" id="index.html#h1">CH 5:- Html Elements </h2>
+        </div>
+        <h3 class="mbp-2 "> Element Type</h3>
+        <div class="mbp-1">
+            <h4 class="mbp-2">1.Block level</h4>
+
+            <p>
+                <li>Takes up full block or width and adds structure in the web page</li>
+                <li>Always starts from new line</li>
+                <li>Always end before the new line</li>
+                <li>Example</li>
+            <p>■
+                &lt;p > <br>
+                ■
+                &lt;div> <br>
+                ■
+                &lt;h1>... &lt;h6> <br>
+                ■
+                &lt;ol> <br>
+                ■
+                &lt;ul> </p> <br>
+            </p>
+        </div>
+        <div class="mbp-1">
+            <h4 class="mbp-2">2.Inline level</h4>
+            <li>
+                Takes up what is requires and adds meaning to the web page
+            </li>
+
+            <li>
+                Always starts from where the previous element ended
+            </li>
+            <li>
+                Example :
+            </li>
+            <p>
+                ■
+                &lt;span> <br>
+                ■
+                &lt;strong> <br>
+                ■
+                &lt;em> <br>
+                ■
+                &lt;img> <br>
+                ■
+                &lt;a> <br>
+            </p>
+
+
+        </div>
+        <div class="mbp-1">
+            <h4 class="mbp-2">Basic tags</h4>
+        </div>
+
+        <p>●
+            Enclosed within <> <br>
+                ●
+                Different tags render different meaning . <br>
+                ●
+                <strong> &lt;title> tag </strong> <br>
+                ○
+                Whatever is written this tag comes up in the web page’s tab <br>
+                ○
+                Defines the title of the page <br>
+                ○
+                Syntax: &lt;title>Home &lt;/title> <br>
+                ●
+                <strong> &lt;p> tag</strong> <br>
+                ○
+                Defines the paragraph <br>
+                ○
+                Syntax:&lt;p > This is our first Paragraph &lt;/p></p>
+        <div class="mbp-1">
+            <h3 class="bg-1">List of Self closing tags</h3>
+            <p>●
+                <hr> tag
+                <br>○
+                Stands for horizontal
+                <br>○
+                Dividing the web page
+                <br>●
+                &lt;br> tag
+                <br>○
+                Stands for break line
+                <br>○
+                Moving to next line
+                <br>●
+                &lt;img> tag
+                <br>○
+                To add images in the web page
+                <br>
+                ●
+                &lt;h1> tag …… &lt;h6>tag
+                <br>○
+                Stands for heading tag
+                <br>○
+                Defines heading of a page
+                <br>○
+                h1 represents most important page in the page
+                <br>○
+                h6 represents least important page in the page
+                <br>●
+                &lt;strong> tag
+                <br>○
+                Defines the text to be bold
+                <br>○
+                Replaced &lt;b>tag //HTML5
+                <br>●
+                &lt;<em> tag
+                    <br>○
+                    Defines the text to be bold
+                    <br>○
+                    Replaced &lt;i>tag //HTML5
+
+                    <br>●
+                    &lt;ol> tag
+                    <br>○
+                    Stands for ordered list
+                    <br>○
+                    To define series of events that take place in some order
+                    <br>○
+                    Example making a tea (like a flow chart)
+                    <br>○
+                    &lt;ol>......... &lt;/ol>
+                    <br> ●
+                    &lt;ul> tag<br>
+                    ○
+                    Stands for unordered list <br>
+                    ○
+                    To define series of events that take place where order is not important.
+                    <br> ○
+                    Example your hobbies<br>
+                    ○
+                    &lt;ul>........ &lt;/ul><br>
+                    ●
+                    &lt;li> tag<br>
+                    ○
+                    Defines the list item<br>
+                    ○
+                    Used inside the `ol` and `ul` tag to define the events<br>
+                    ○
+                    &lt;li> &lt;/li><br>
+                    ●
+                    &lt;div> and &lt;span> tags<br>
+                    ○
+                    Both of these are used to group different tags .<br>
+                    ○
+                    Acts like a container.<br>
+                    ○
+                    Effective while styling.<br>
+                    ○
+                    &lt;div>....... &lt;/div><br>
+                    ○
+                    &lt;span>... &lt;/span><br>
+                    ○
+                    Difference &lt;div> is block level and &lt;span> is inline level.<br>
+                    ●
+                    &lt;img> tag<br>
+                    ○
+                    Used to add images in a web page<br>
+                    ○
+                    Syntax: &lt;img src=”url”><br>
+                    ○
+                    Self closing tag.<br>
+                    ●
+                    &lt;a> tags<br>
+                    ○
+                    Used to add links in a web page<br>
+                    ○
+                    &lt;a href=”url”> Name of the link </a><br>
+                    ●
+                    &lt;img> tag<br>
+                    ○
+                    Used to add images in a web page<br>
+                    ○
+                    Syntax: &lt;img src=”url”><br>
+                    ○
+                    Self closing tag.<br>
+                    ●
+                    &lt;a> tags<br>
+                    ○
+                    Used to add links in a web page<br>
+                    ○
+                    &lt;a href=”url”> Name of the link &lt;/a>
+            </p>
+
+
+
+        </div>
+
+        <div class="center mbp-1">
+            <h2 class="mbp-2" id="index.html#h1">CH 6:- HTML Attributes (alt, href, src, width, height, style, title,
+                id) </h2>
+        </div>
+        <p>●
+            Properties associated with each tag.<br>
+            ●
+            &lt;tag name=”value”> &lt;/tag> is the structure.<br>
+            ●
+            <strong> Global Attribute:</strong><br>
+            ○
+            <strong> Title:</strong> Add extra information (hover)<br>
+            *<strong>Style:</strong> Add style information(font,background <br>,color,size)<br>
+            ●
+            &lt;img src=”url” width=”100”><br>
+            ○
+            src is the attribute used in image tag to define path<br>
+            ○
+            Width is attribute used to define width in pixels<br>
+            <br>○
+            Alt i.e alternate text if image is not loaded
+            <br> ●
+            &lt;a href=”url”> Name of the link &lt;/a> <br>
+            ●
+            href used to define path of the link.
+        </p>
+        <ol>
+            <li>alt</li>
+            <li>href</li>
+            <li>src</li>
+            <li>width</li>
+            <li>height</li>
+            <li>style</li>
+            <li>title</li>
+            <li>id</li>
+        </ol>
+
+        <div class="center mbp-1">
+            <h2 class="mbp-2" id="index.html#h1">CH 7:- Table tag
+            </h2>
+        </div>
+        <p> Used to create a table on a web page <br>
+
+            ○
+            Need other tags for completing the creation of a table<br>
+            ■
+            &lt;tr> : for marking the table row<br>
+            ■
+            &lt;th> : for table header<br>
+            ■
+            &lt;td> : for table column data<br>
+            ○
+            Everything is always enclosed within &lt;tr><br>
+            ■
+            &lt;thead> : to keep all header data<br>
+            ■
+            &lt;tbody> : to keep all body data<br>
+
+        </p>
+
+        <div class="center mbp-1">
+            <h2 class="mbp-2" id="index.html#h1">CH 8:- Form tag
+            </h2>
+        </div>
+
+        <p>○Action attribute: It specifies the URL to send form data to <br>
+            ○Method attribute: specifies the type of HTTP request(GET or POST) <br>
+            ○Example: &lt;form action="/my-form-submitting-page" method="POST"> <br>
+            ○&lt;input>: used to accept data from the user <br>
+        <h5 class="center">○Some types of inputs are:</p>
+        </h5>
+        <div class="mbp-1">
+            <p> <strong> ●
+                    Text:</strong> used to store text data. Syntax: type="text" <br>
+                <strong>●
+                    Password:</strong> used to enter a secure password. Syntax: type="password" <br>
+                <strong>●
+                    Placeholder:</strong> temporary text in input fields. It is generally accompanied by "text" and
+                "password" attributes. Syntax: placeholder="insert-text-here" <br>
+                <strong>●
+                    Button:</strong> used to include buttons in the form. Syntax: type="button" value="insert-text-here"
+                <br>
+
+                <strong>●
+                    Submit button:</strong> For creating a submit button. All the data will get submitted when it is
+                clicked. Syntax: type="submit"
+
+                <br> <strong>●
+                    Checkbox:</strong> to provide the ability to check multiple options. Syntax: type="checkbox". To
+                check
+                options by default, set it with the checked attribute.
+                <br>
+
+                <strong>●
+                    Radio Button:</strong> allows one to choose a single option. Syntax: type="radio". Keep the name
+                attribute of all the options the same.
+                ● <br>
+                <strong>&lt;select></strong>: For every possible option to select, use an &lt;option> tag&lt;option>
+                <br> <strong>●
+                    Text Areas:</strong> multi-line plain-text editing control. Syntax: &lt;textarea>. You can specify
+                how
+                large the text area is by using the "rows" and "cols" attributes
+                <br> ●
+                <strong> Labels</strong>: add captions for individual items in a form. Syntax: &lt;label>. A label can
+                be used by placing the
+                control element inside the &lt;label> element, or by using the "for" and "id" attributes.
+                <br> ●
+                Validations ensure that users fill out forms in the correct format, e.g.:
+                <br> a.
+                required: The Boolean attribute which makes a field mandatory:
+                <br> b.
+                email: the browser will ensure that the field contains an @ symbol.
+
+
+            </p>
+        </div>
+
+
+
+
+
+    <div>
+
+
+        <h1>THank you </h1>
+ 
+    </div>
+<h1>see the examples</h1>
+<footer>
+    <div class="footer-content">
+      <p style="background-color: #ff0000;">&copy; 2023 Html basic . All rights reserved.  made by dk <a href="https://www.instagram.com/_dhruv226/">@dhruv226</a> </p>
+    </div>
+  </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
