@@ -10,12 +10,3 @@ function myFunction(){
 }
 
 //get the link element
-var link = document.getElementById("myLink");
-//function show the alret
-function showAlert(event)
-{
-   
-    alert("this is example of html with js and css")
-}
-//event lister
-link.addEventListener("click",showAlert);
